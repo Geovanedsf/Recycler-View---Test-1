@@ -14,35 +14,40 @@ class DataSource {
                 Profile(
                     "Geovane",
                     "Portugues",
-                    R.drawable.img
+                    R.drawable.img,
+                    "https://www.youtube.com/watch?v=pSxooe9BHgI"
                 )
             )
             list.add(
                 Profile(
                     "Gabriela",
                     "Portugues",
-                    R.drawable.img_4
+                    R.drawable.img_4,
+                    "https://www.youtube.com/watch?v=pSxooe9BHgI"
                 )
             )
             list.add(
                 Profile(
                     "Gabriele",
                     "Portugues",
-                    R.drawable.img_3
+                    R.drawable.img_3,
+                    "https://www.youtube.com/watch?v=pSxooe9BHgI"
                 )
             )
             list.add(
                 Profile(
                     "Ricardo",
                     "Portugues",
-                    R.drawable.img_1
+                    R.drawable.img_1,
+                    "https://www.youtube.com/watch?v=pSxooe9BHgI"
                 )
             )
             list.add(
                 Profile(
                     "Diego",
                     "Portugues",
-                    R.drawable.img_2
+                    R.drawable.img_2,
+                    "https://www.youtube.com/watch?v=pSxooe9BHgI"
                 )
             )
             return list

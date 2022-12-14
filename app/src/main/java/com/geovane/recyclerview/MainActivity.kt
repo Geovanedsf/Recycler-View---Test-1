@@ -1,5 +1,7 @@
 package com.geovane.recyclerview
 
+import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -27,8 +29,19 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initAdpter() {
-       profileAdpter = ProfileAdpter()
+       profileAdpter = ProfileAdpter { profile ->
+           openYoutube(profile.url)
+       }
+
+        // aqui que chama a instancia onClicked
+
+
         recyclerView.layoutManager = LinearLayoutManager(this@MainActivity)
         recyclerView.adapter = profileAdpter
+    }
+
+    private fun openYoutube(url: String) {
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+        startActivity(intent)
     }
 }
