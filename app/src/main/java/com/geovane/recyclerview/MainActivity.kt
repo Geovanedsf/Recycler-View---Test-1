@@ -33,11 +33,15 @@ class MainActivity : AppCompatActivity() {
            openYoutube(profile.url)
        }
 
-        // aqui que chama a instancia onClicked
+        recyclerView.apply {
+            layoutManager = LinearLayoutManager (this@MainActivity)
+            adapter = profileAdpter
+        }
 
+      // aqui que chama a instancia onClicked \/
 
-        recyclerView.layoutManager = LinearLayoutManager(this@MainActivity)
-        recyclerView.adapter = profileAdpter
+      //  recyclerView.layoutManager = LinearLayoutManager(this@MainActivity)
+      // recyclerView.adapter = profileAdpter
     }
 
     private fun openYoutube(url: String) {
