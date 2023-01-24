@@ -1,6 +1,7 @@
-package com.geovane.recyclerview
+package com.geovane.recyclerview.resource
 
-import com.geovane.recyclerview.models.Profile
+import com.geovane.recyclerview.R
+import com.geovane.recyclerview.model.Profile
 
 // Onde vamos mocar todos os dados da nossa lista - escrever diretamente no código
 // termo mocar = escrever dados dentro do meu código e utilizo ele ali mesmo, não preciso trazer de nenhum lugar externo.

@@ -1,10 +1,13 @@
-package com.geovane.recyclerview
+package com.geovane.recyclerview.view
 
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.geovane.recyclerview.resource.DataSource
+import com.geovane.recyclerview.R
+import com.geovane.recyclerview.resource.ProfileAdpter
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

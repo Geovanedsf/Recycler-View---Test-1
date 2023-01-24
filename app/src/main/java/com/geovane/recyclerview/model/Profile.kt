@@ -1,4 +1,4 @@
-package com.geovane.recyclerview.models
+package com.geovane.recyclerview.model
 
 data class Profile(
     var nome: String,

@@ -10,4 +10,9 @@
         android:name="com.geovane.recyclerview.NavigationFirst"
         android:label="NavigationFirst"
         tools:layout="@layout/fragment_navigation"/>
+    <fragment
+        android:id="@+id/fragmentSecond"
+        android:name="com.geovane.recyclerview.FragmentSecond"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" />
 </navigation>
